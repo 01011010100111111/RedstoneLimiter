@@ -24,4 +24,3 @@ Datapack **RedstoneLimiter** должен быть в статусе `enabled`.
 ## Требования
 
 - Minecraft Java Edition  
-- Версия: см. описание репозитория
