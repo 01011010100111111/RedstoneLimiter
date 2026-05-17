@@ -1,0 +1,1 @@
+say [RedstoneLimiter] Фаза 1: @s активировал редстоун

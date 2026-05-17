@@ -1,0 +1,33 @@
+# Enforce physics-entity policy: either kill certain entity types (HARD) or disable them (SAFE)
+# HARD mode - kill common physics entities (except mobs/players)
+execute if score global rs_mode matches 1.. run kill @e[type=item]
+execute if score global rs_mode matches 1.. run kill @e[type=oak_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=spruce_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=birch_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=jungle_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=acacia_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=cherry_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=dark_oak_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=pale_oak_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=mangrove_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=bamboo_raft]
+execute if score global rs_mode matches 1.. run kill @e[type=oak_chest_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=spruce_chest_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=birch_chest_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=jungle_chest_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=acacia_chest_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=cherry_chest_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=dark_oak_chest_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=pale_oak_chest_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=mangrove_chest_boat]
+execute if score global rs_mode matches 1.. run kill @e[type=bamboo_chest_raft]
+execute if score global rs_mode matches 1.. run kill @e[type=minecart]
+execute if score global rs_mode matches 1.. run kill @e[type=chest_minecart]
+execute if score global rs_mode matches 1.. run kill @e[type=furnace_minecart]
+execute if score global rs_mode matches 1.. run kill @e[type=hopper_minecart]
+execute if score global rs_mode matches 1.. run kill @e[type=tnt_minecart]
+execute if score global rs_mode matches 1.. run kill @e[type=commandblock_minecart]
+execute if score global rs_mode matches 1.. run kill @e[type=falling_block]
+
+# SAFE mode - tag/neutralize common physics entities
+execute if score global rs_mode matches 0..0 run function redstone_limiter:disable_physics_generic

@@ -1,0 +1,3 @@
+function redstone_limiter:check_armor_stands
+function redstone_limiter:enforce_physics_entities
+schedule function redstone_limiter:tick 80t

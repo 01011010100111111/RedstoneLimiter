@@ -1,0 +1,3 @@
+function redstone_limiter:phase1
+function redstone_limiter:check_armor_stands
+schedule function redstone_limiter:tick 80t

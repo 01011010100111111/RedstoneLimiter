@@ -1,0 +1,16 @@
+execute positioned ~0 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~1 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~2 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~3 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~4 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~5 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~6 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~7 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~8 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~9 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~10 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~11 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~12 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~13 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~14 ~ ~ run function antishlag:loops/loop_y
+execute positioned ~15 ~ ~ run function antishlag:loops/loop_y
